@@ -1,0 +1,124 @@
+/*body{
+	background: orange;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+h1{
+	color: #FF2aa0;
+	border-color: black;
+	border-width: 10px;
+	border-style:solid;
+}
+
+li{
+	color: green;
+	border: 2px solid red;
+}
+
+h4{
+	background: rgb(0,150,100);
+}
+
+#checked {
+	background: pink;
+}
+
+.completed{
+	text-decoration:line-through;	
+}*/
+
+/*
+*{
+	border: 1px solid grey;
+}
+*/
+/*
+li a {
+	color: red;
+}
+
+h4 + ul {
+	border: 4px solid red;
+}
+
+a[href="http://www.google.com"] {
+	background:yellow;
+}
+
+ul:nth-of-type(2){
+	background: purple;
+}*/
+
+
+/*body{
+	color: red;
+	border:10px solid blue;
+	background: pink;
+}
+
+h1{
+	background: green;
+}
+
+
+p{
+	border: 2px solid red;
+	color: green;
+}
+
+#bon{
+	color:lightgrey;
+	border: 3px solid grey;
+}
+
+ul{
+	color:purple;
+}
+
+li{
+	color: orange;
+}
+
+.hili{
+	color:yellow;
+}
+
+[style*="color"]{
+	color: black !important;
+}
+
+*/
+
+.myCheckbox input {
+	position: relative;
+	z-index: -1;
+}
+
+.myCheckbox .blank{
+	display: inline-block;
+	width: 20px;
+  	height: 20px;	
+	position: relative;
+	right:25px;
+	z-index: 0;
+  	background: white;
+}
+
+.myCheckbox .box {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	position: relative;
+	right:50px;
+	z-index: 1;
+	background: url("https://i.stack.imgur.com/Ay58y.png");
+	background-size: cover;
+}
+
+.myCheckbox input:checked + .blank + .box {
+	position: relative;
+	z-index: 1;
+	background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Teal_checkbox-checked.svg/1024px-Teal_checkbox-checked.svg.png");
+	background-size: cover;
+}
